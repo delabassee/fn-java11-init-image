@@ -1,11 +1,16 @@
-## Fn Init Image for JDK 12 Early Access 
+## Fn Init Image for Java 11 - java-11-init:latest
+
+`tar cf java-11-init.tar func.init.yaml pom.xml src Dockerfile`
+
+`docker build -f Dockerfile-init -t java-11-init .`
+
+`fn init --init-image java-11-init myfunc`
 
 
-`tar cf jdk-12ea-init.tar func.init.yaml pom.xml src Dockerfile`
+### To Do
 
-`docker build -f Dockerfile-init -t jdk-12ea-init .`
+# Switch to a slim image!
 
-`fn init --init-image jdk-12ea-init myfunc`
+# Add Test
 
-
-jdk-12ea-init:latest
+# Cache image (.so)
