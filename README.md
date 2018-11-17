@@ -10,7 +10,5 @@
 ### To Do
 
 # Switch to a slim image!
-
 # Add Test
-
-# Cache image (.so)
+# fn-cache image (libfnunixsocket.so)
