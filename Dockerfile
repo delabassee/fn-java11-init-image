@@ -14,8 +14,9 @@ ADD src /function/src
 RUN ["mvn", "package"]
 
 
-#TODO switch to an official/small image as 11.0.1-jdk-oraclelinux7 weight 463MB!!
-FROM openjdk:11.0.1-jdk-oraclelinux7
+#TODO switch to an official/small image
+FROM openjdk:11.0.1-jre-slim
+
 WORKDIR /function
 COPY --from=build-stage /function/target/*.jar /function/app/
 COPY --from=cache-stage /libfnunixsocket.so /lib
