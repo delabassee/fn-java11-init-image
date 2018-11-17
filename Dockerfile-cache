@@ -1,0 +1,4 @@
+FROM scratch
+COPY src/main/c/libfnunixsocket.so /
+
+#docker build -f Dockerfile-cache -t fn-cache .

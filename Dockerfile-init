@@ -1,0 +1,3 @@
+FROM alpine:latest
+COPY jdk-12ea-init.tar /
+CMD cat /jdk-12ea-init.tar
