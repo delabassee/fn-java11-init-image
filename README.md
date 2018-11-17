@@ -1,4 +1,4 @@
-## Fn Init Image for Java 11 - java-11-init:latest
+## Fn Init Image for Java 11 - `java-11-init:latest`
 
 `tar cf java-11-init.tar func.init.yaml pom.xml src Dockerfile`
 
@@ -12,3 +12,4 @@
 * Switch to a slim image!
 * Add Function Test
 * fn-cache image (libfnunixsocket.so)
+* `jlink` option
