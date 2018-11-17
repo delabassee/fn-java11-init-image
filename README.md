@@ -13,3 +13,4 @@
 * Add Function Test
 * fn-cache image (libfnunixsocket.so)
 * `jlink` option
+* `fn init --runtime java` alias
