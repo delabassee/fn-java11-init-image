@@ -7,8 +7,8 @@
 `fn init --init-image java-11-init myfunc`
 
 
-### To Do
+## To Do
 
-# Switch to a slim image!
-# Add Test
-# fn-cache image (libfnunixsocket.so)
+* Switch to a slim image!
+* Add Function Test
+* fn-cache image (libfnunixsocket.so)
