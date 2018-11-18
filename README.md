@@ -10,7 +10,7 @@
 ## To Do
 
 * Switch to a slim image!
-* Populate `<fdk.version>` with FDK latest version https://api.bintray.com/search/packages/maven?repo=fnproject&g=com.fnproject.fn&a=fdk
+* Populate `<fdk.version>` with https://api.bintray.com/search/packages/maven?repo=fnproject&g=com.fnproject.fn&a=fdk
 * Add Function Test
 * fn-cache image (`libfnunixsocket.so`)
 * `jlink` option
