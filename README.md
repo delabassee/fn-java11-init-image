@@ -16,3 +16,18 @@
 * `jlink` option
 * `fn init --runtime java` alias
 * Check JVM params
+
+
+### Deps 
+
+/function/app
+
+* com.fasterxml.jackson.core.jackson-annotations-2.9.0.jar -> not 2.9.7, req 2.9.1 minimum for JPMS https://github.com/FasterXML/jackson-annotations/commit/c8eb466a12c6c15fcb6873118f698b057e84cc94
+* com.fasterxml.jackson.core.jackson-core-2.9.7.jar
+* com.fasterxml.jackson.core.jackson-databind-2.9.7.jar
+* com.fnproject.fn.api-1.0.75.jar
+* com.fnproject.fn.runtime-1.0.75.jar
+* commons-io.commons-io-2.6.jar -> should be OK for JPMS https://issues.apache.org/jira/browse/IO-551
+* net.jodah.typetools-0.5.0.jar -> https://github.com/jhalterman/typetools/
+* org.apache.httpcomponents.httpcore-4.4.10.jar -> req 4.5.6 for JPMS (https://www.apache.org/dist/httpcomponents/httpclient/RELEASE_NOTES-4.5.x.txt)
+* + hello-1.0.0.jar
