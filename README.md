@@ -10,12 +10,14 @@
 ## To Do
 
 * Switch to a slim image!
-* Populate `<fdk.version>` with https://api.bintray.com/search/packages/maven?repo=fnproject&g=com.fnproject.fn&a=fdk
 * Add Function Test
 * fn-cache image (`libfnunixsocket.so`)
 * `jlink` option
 * `fn init --runtime java` alias
-* Check JVM params
+* Check/tune JVM params
+* Populate `<fdk.version>` with https://api.bintray.com/search/packages/maven?repo=fnproject&g=com.fnproject.fn&a=fdk
+`curl -i https://bintray.com/fnproject/fnproject/fn-java-fdk/_latestVersion | grep "Location:" | sed 's:.*/::'`
+
 
 
 ### Deps 
