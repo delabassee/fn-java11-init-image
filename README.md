@@ -10,6 +10,7 @@
 ## To Do
 
 * Switch to a slim image!
+* Fetch latest FDK Version -> pom.xml
 * Add Function Test
 * fn-cache image (libfnunixsocket.so)
 * `jlink` option
