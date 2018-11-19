@@ -63,11 +63,4 @@ java.logging
 java.sql
 java.xml
 jdk.unsupported
-/function/app/com.fnproject.fn.api-1.0.75.jar
-/function/app/com.fasterxml.jackson.core.jackson-core-2.9.7.jar
-/function/app/com.fasterxml.jackson.core.jackson-databind-2.9.7.jar
-/function/app/com.fasterxml.jackson.core.jackson-annotations-2.9.0.jar
-/function/app/commons-io.commons-io-2.6.jar
-/function/app/net.jodah.typetools-0.5.0.jar
-/function/app/org.apache.httpcomponents.httpcore-4.4.10.jar
 ```
