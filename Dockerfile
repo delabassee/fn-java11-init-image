@@ -7,8 +7,8 @@ ENV MAVEN_OPTS -Dhttp.proxyHost= -Dhttp.proxyPort= -Dhttps.proxyHost= -Dhttps.pr
 ADD pom.xml /function/pom.xml
 
 #TODO move setPomFdkVersion to init-image
-ADD setPomFdkVersion.sh.sh /function/setPomFdkVersion.sh.sh
-RUN ["/function/setPomFdkVersion.sh.sh"]
+ADD setPomFdkVersion.sh /function/setPomFdkVersion.sh
+RUN ["/function/setPomFdkVersion.sh"]
 
 RUN ["mvn", "package", \
     "dependency:copy-dependencies", \
