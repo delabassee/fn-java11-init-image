@@ -33,3 +33,26 @@
 * net.jodah.typetools-0.5.0.jar -> https://github.com/jhalterman/typetools/
 * org.apache.httpcomponents.httpcore-4.4.10.jar -> req 4.5.6 for JPMS (https://www.apache.org/dist/httpcomponents/httpclient/RELEASE_NOTES-4.5.x.txt)
 * + hello-1.0.0.jar
+
+```
+com.fasterxml.jackson.core.jackson-annotations-2.9.0.jar -> java.base
+com.fasterxml.jackson.core.jackson-core-2.9.7.jar -> java.base
+com.fasterxml.jackson.core.jackson-databind-2.9.7.jar -> /function/app/com.fasterxml.jackson.core.jackson-annotations-2.9.0.jar
+com.fasterxml.jackson.core.jackson-databind-2.9.7.jar -> /function/app/com.fasterxml.jackson.core.jackson-core-2.9.7.jar
+com.fasterxml.jackson.core.jackson-databind-2.9.7.jar -> java.base
+com.fasterxml.jackson.core.jackson-databind-2.9.7.jar -> java.logging
+com.fasterxml.jackson.core.jackson-databind-2.9.7.jar -> java.sql
+com.fasterxml.jackson.core.jackson-databind-2.9.7.jar -> java.xml
+com.fnproject.fn.api-1.0.75.jar -> java.base
+com.fnproject.fn.runtime-1.0.75.jar -> /function/app/com.fasterxml.jackson.core.jackson-core-2.9.7.jar
+com.fnproject.fn.runtime-1.0.75.jar -> /function/app/com.fasterxml.jackson.core.jackson-databind-2.9.7.jar
+com.fnproject.fn.runtime-1.0.75.jar -> /function/app/com.fnproject.fn.api-1.0.75.jar
+com.fnproject.fn.runtime-1.0.75.jar -> /function/app/commons-io.commons-io-2.6.jar
+com.fnproject.fn.runtime-1.0.75.jar -> java.base
+com.fnproject.fn.runtime-1.0.75.jar -> /function/app/net.jodah.typetools-0.5.0.jar
+com.fnproject.fn.runtime-1.0.75.jar -> /function/app/org.apache.httpcomponents.httpcore-4.4.10.jar
+commons-io.commons-io-2.6.jar -> java.base
+net.jodah.typetools-0.5.0.jar -> java.base
+net.jodah.typetools-0.5.0.jar -> jdk.unsupported
+org.apache.httpcomponents.httpcore-4.4.10.jar -> java.base
+```
