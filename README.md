@@ -1,5 +1,7 @@
 ## Fn Init Image for Java 11 - `java-11-init`
 
+See [init-images](https://medium.com/fnproject/even-wider-language-support-in-fn-with-init-images-a7a1b3135a6e) details.
+
 `tar cf java-11-init.tar func.init.yaml pom.xml src Dockerfile`
 
 `docker build -f Dockerfile-init -t java-11-init .`
